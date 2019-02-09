@@ -12,7 +12,7 @@ echo "<h3 style='margin-top: 50px;text-align: center'>100以内加减法试题�
 echo "<h3 style='margin-top: 50px;text-align: center'>请不要刷新，刷新即换另一套试题，可保存在本地使用</h3>";
 echo "<a href='test.txt' style='margin-top: 50px;text-align: center;display: block'>查看试题</a>";
 echo "<a href='answer.txt' style='margin-top: 50px;text-align: center;display: block'>查看答案</a>";
-echo "<h3 style='margin-top: 300px;text-align: center'>感兴趣的同学可访问，可把代码下载至本地</h3>";
+echo "<h3 style='margin-top: 300px;text-align: center'>感兴趣的同学可访问<a href='https://github.com/jc91715/exam-generate'>github</a>，可把代码下载至本地</h3>";
 
 //生成试卷 $n 多少个 $m 多少以内
 function geneTest($n,$m,$j,$myfile,$answer){
