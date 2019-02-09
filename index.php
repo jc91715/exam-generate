@@ -7,6 +7,7 @@ $answer = fopen("answer.txt", "w+");
 geneTest(100,100,3,$myfile,$answer);
 
 fclose($myfile);
+fclose($answer);
 echo "<h3 style='margin-top: 50px;text-align: center'>100以内加减法试题已生成</h3>";
 echo "<h3 style='margin-top: 50px;text-align: center'>请不要刷新，刷新即换另一套试题，可保存在本地使用</h3>";
 echo "<a href='test.txt' style='margin-top: 50px;text-align: center;display: block'>查看试题</a>";
